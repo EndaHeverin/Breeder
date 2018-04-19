@@ -14,6 +14,18 @@ router.get('/', function(req, res, next) {
 router.get('/feed', function(req, res, next) {
   res.render('feed', { title: 'Express' });
 });
+router.get('/contact', function(req, res, next) {
+    res.render('contact',{ title: 'Express' });
+});
+/* GET Gallery page. */
+router.get('/Gallery', function(req, res, next) {
+  res.render('Gallery', { title: 'Express' });
+});
+
+/* GET Gallery page. */
+router.get('/chat', function(req, res, next) {
+  res.render('chat', { title: 'Express' });
+});
 
 //hopefully get contact
 router.get('/contact',function(req,res,next){
