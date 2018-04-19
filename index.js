@@ -11,6 +11,13 @@ router.get('/', function(req, res, next) {
 router.get('/feed', function(req, res, next) {
   res.render('feed', { title: 'Express' });
 });
+router.get('/contact', function(req, res, next) {
+    res.render('contact',{ title: 'Express' });
+});
+/* GET feed page. */
+router.get('/Gallery', function(req, res, next) {
+  res.render('Gallery', { title: 'Express' });
+});
 
 
 
