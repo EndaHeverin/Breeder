@@ -14,9 +14,14 @@ router.get('/feed', function(req, res, next) {
 router.get('/contact', function(req, res, next) {
     res.render('contact',{ title: 'Express' });
 });
-/* GET feed page. */
+/* GET Gallery page. */
 router.get('/Gallery', function(req, res, next) {
   res.render('Gallery', { title: 'Express' });
+});
+
+/* GET Gallery page. */
+router.get('/chat', function(req, res, next) {
+  res.render('chat', { title: 'Express' });
 });
 
 
